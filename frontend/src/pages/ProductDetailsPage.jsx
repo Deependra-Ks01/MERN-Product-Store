@@ -66,14 +66,14 @@ export default function ProductDetailsPage() {
             <button
               type="button"
               onClick={() => navigate(`/products/${id}/edit`)}
-              className="rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800"
+              className="rounded-md bg-[#393E46] px-4 py-2 text-sm font-medium text-white hover:bg-slate-800"
             >
               Edit
             </button>
             <button
               type="button"
               onClick={onDelete}
-              className="rounded-md bg-rose-600 px-4 py-2 text-sm font-medium text-white hover:bg-rose-500"
+              className="rounded-md bg-[#8CE4FF] px-4 py-2 text-sm font-medium text-slate-900 hover:bg-[#6dd4f0]"
             >
               Delete
             </button>
